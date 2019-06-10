@@ -1,0 +1,179 @@
+#header1{
+	height: 100px;
+	/*background: blanchedalmond;*/
+}
+#header-main{
+	height: 100px;
+	/*background: lightblue;*/
+}
+
+#logomain{
+	float: left;
+	margin: 20px auto;
+	height: 60px;
+	width: 100%;
+}
+
+#login-box,#content{
+	height: 655px;
+	background: #e34c6c;
+}
+#content-box{
+	background-color: #e34c6c;
+    min-height: 655px;
+    height: 655px;
+    position: relative;
+}
+#pic{
+	float: left;
+	height: 486px;
+	width: 100%;
+	margin: 0 auto;
+	/*background: deepskyblue;*/
+	margin-top:75px ;
+}
+#login-form{
+	width: 380px;
+    min-height: 458px;
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    margin-left: 230px;
+    padding: 15px;
+    background: #fff;
+     overflow: hidden;
+}
+
+.cd-user-modal-container{
+	border: none;
+	width: 350px;
+	height: 418px;
+	padding: 0 15px;
+	margin-top: 20px;
+	/*background: greenyellow;*/
+	/*overflow: hidden;*/
+}
+.cd-switcher{
+	font-size: 24px;
+	height: 44px;
+	width: 350px;
+	/*background: pink;*/
+}
+
+.cd-switcher-li{
+	display: inline-block;
+	
+}
+.l1{
+	margin-left: 50px;
+	margin-right: 10px;
+	padding-right: 20px;
+	border-right: 2px solid gainsboro;
+	
+}
+.a1{
+	color: deepskyblue;
+}
+.a2{
+	color: darkgray;
+}
+.cd-switcher-a:hover{
+	color: deepskyblue;
+}
+
+.btn{
+	width: 350px;
+	height: 50px;
+	margin-top: 10px;
+	border: 1px solid darkgray;
+
+}
+.btn2{
+	width: 350px;
+	height: 50px;
+	margin-top: 10px;
+	border: 1px solid darkgray;
+
+}
+.btn-p{
+	color: white;
+}
+.btn-p2{
+	color: white;
+}
+
+.cd-btn-li{
+	margin-top: 10px;
+}
+.ok{
+	color: white;
+	background-color: deepskyblue;
+	border: none;
+	width: 350px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.weixin{
+	position: relative;
+	margin-top: 20px;
+	display: inline-block;
+	width: 350px;
+	height: 72px;
+	border-top:1px solid grey ;
+	/*background: blueviolet;*/
+	
+	
+}
+.weixin-log{
+	width: 36px;
+	height: 36px;
+	display: block;
+	line-height: 72px;
+	margin: 20px auto;
+	/*margin: 10px;*/
+}
+.weixin-log-top{
+	position: absolute;
+	top: -10px;
+	left: 100px;
+	width: 150px;
+	background-color: white;
+	text-align: center;
+	color: grey;
+}
+.cd-signup{
+	position: relative;
+}
+#ecode{
+	position: absolute;
+	right: 0;
+	top: 89px;
+	/*border-left:1px solid grey ;*/
+	height: 50px;
+	width: 120px;
+	padding-left: 10px;
+	color: grey;
+	text-align: center;
+	line-height: 50px;
+	/*background: black;*/
+}
+.cd-login{
+	display: block;
+}
+
+.cd-signup{
+	display: none;
+}
+.none{
+	display: none;
+}
+.block{
+	display: block;
+}
+#tab1:hover{
+	color: deepskyblue;
+}
+#tab2:hover{
+	color: deepskyblue;
+}

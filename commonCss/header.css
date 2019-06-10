@@ -1,0 +1,299 @@
+
+#header1{	
+	background-color: #404040;
+	height: 40px;
+}
+#header2{
+	height:100px ;
+	background: white;
+
+}
+#header22{
+	height:100px ;
+	width: 100%;
+	background: white;
+	position: relative;
+}
+#topbar{
+	height: 40px;
+	/*background: bisque;*/
+}
+#topbar-left{
+	/*width: 300px;*/
+	/*float: left;*/
+	display: inline-block;
+	overflow: hidden;
+	height: 40px;
+	/*background: deeppink;*/
+}
+.topbar-li{
+	float: left;
+	padding: 0 10px;
+	line-height: 40px;
+	font-size: 14px;
+    color: #b2b2b2;
+}
+#topbar-li-a{
+	padding-right:20px;
+	border-right:1px solid grey ;
+}
+.topbar-li a:hover{
+	color: white;
+}
+.topbar-li a{
+	font-size: 14px;
+    color: #b2b2b2;
+}
+#topbar-right{
+	overflow: hidden;
+	display: inline-block;
+	/*height: 40px;*/
+	/*background: palegreen;*/
+	float: right;
+	
+}
+
+#headerc{
+	/*background: pink;*/
+	height: 77px;
+	padding-top: 23px;
+	/*position: relative;*/
+}
+#headerc-log{
+	float: left;
+	width: 240px;
+	height:77px ;
+}
+
+#headerc-menu{
+	float: left;
+	margin: 0 auto;
+	width: 570px;
+	height: 67px;
+	/*background: yellow;*/
+}
+#headerc-search{
+	width: 347px;
+	height: 67px;
+	/*background: cornflowerblue;*/
+	float: right;
+	position: relative;
+}
+#headerc-log img{
+	/*margin-top: 15px;*/
+	max-width: 100%;
+    max-height: 60px;
+}
+.headerc-menu-ul{
+	margin: 0 auto;
+	width: 570px;
+	height: 67px;
+	display: inline-block;
+	/*background: wheat;*/
+}
+.headerc-menu-li{
+	
+	line-height: 67px;
+	float: left;
+    height: 67px;
+    /*width: 70px;*/
+    margin-left: 50px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    
+}
+.headerc-menu-li a:{
+	 font-size: 14px;
+	 color: #666666;
+}
+.headerc-menu-li a:hover{
+	color: deepskyblue;
+}
+.btn-Topbox1:hover .topbox1{
+	display: block;
+}
+.btn-Topbox2:hover .topbox2{
+	display: block;
+}
+.btn-Topbox3:hover .topbox3{
+	display: block;
+}
+.topbox{
+	position: absolute;
+	top: 66px;
+	
+	
+	height: 120px;
+	width: 1226px;
+	
+	z-index: 20;
+
+}
+.topmoreul{
+	margin: 0 auto;
+	width: 1226px;
+	height:120px ;
+	
+}
+.topmoreicon{
+	float: left;
+	line-height: 120px;
+	margin-left: 50px;
+}
+.topbox1{
+	display: none;
+	left: -396px;
+	background: white;
+}
+.topbox2{
+	display: none;
+	left: -544px;
+	background: white;
+	height: 140px;
+}
+.topbox3{
+	display: none;
+	left: -650px;
+	background: white;
+}
+#search{
+	width: 300px;
+	height: 40px;
+	border: 1px solid darkgrey;
+	line-height: 40px;
+	margin: 0;
+}
+#searchbtn{
+	width: 42px;
+	height: 42px;
+	border: 1px solid darkgrey;
+	/*line-height: 40px;*/
+	background: white;
+	padding: 0;
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+#searchbtn:hover{
+	background-color: deepskyblue;
+}
+#headerc-search a{
+	display: inline-block;
+}
+#headerc-search a:hover{
+	color: deepskyblue;
+}
+
+
+/*回到顶部*/
+#backTop{
+	height:40px;
+	width: 40px;
+	background: grey;
+	opacity: 0.8;
+	position: fixed;
+	top: 85%;
+	right: 40px;
+	text-align: center;
+	display: none;
+	z-index: 20;
+}
+#Btop{
+	font-size: 30px;
+	color: gainsboro;
+	opacity: 0.5;
+}
+
+/*底部*/
+#footer{
+	margin-top: 20px;
+	background: #fafafa;;
+	height: 678px;
+}
+#service{
+	height: 44px;
+	width: 100%;
+    padding-top: 18px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    /*background: red;*/
+}
+
+#service-ul{
+	height: 44px;
+	width: 1226px;
+	margin: 0 auto;
+}
+.service-li{
+	float: left;
+    width: 244px;
+    height: 28px;
+    font-size: 20px;
+    border-right: 1px solid #ccc;
+   color: darkgrey;
+}
+#help{
+	width: 1226px;
+	height: 280px;
+	margin: 0 auto;
+	padding-top: 60px;
+    /* padding-bottom: 20px; */
+    padding-bottom: 80px;
+	/*background: palegreen;*/
+}
+#help-page{
+	    width: 1226px;
+    margin: 0 auto;
+    height: 279px;
+    /*background: paleturquoise;*/
+}
+.help-item{
+	    float: left;
+    width: 204px;
+    margin-right: 100px;
+    /*height: 135px;*/
+    /*background: green;*/
+}
+.content-title{
+	    font-size: 16px;
+    color: #2d2d2d;
+    line-height: 24px;
+}
+.node-index{
+	    line-height: 24px;
+    font-size: 14px;
+    color: #646464;
+}
+#footer-info{
+	background-color: #fff;
+    padding-top: 20px;
+    height: 176px;
+    width: 1226px;
+    margin: 0 auto;
+}
+.theme-foot{
+	text-align: center;
+	color: grey;
+	margin-bottom: 20px;
+}
+#body-right{
+	position: fixed;
+	right: 0;
+	top: 50%;
+	height: 100px;
+	width: 100px;
+	background: dodgerblue;
+	background-image: url(../img/im.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#body-help{
+	position: absolute;
+	display: none;
+	left: -45px;
+	top: -130px;
+}
+#body-right:hover #body-help{
+	display: block;
+}
