@@ -26,11 +26,11 @@ $(function(){
 					}
 				).css('z-index',20)
 				$('#backTop').css('display','block')
-				$('#backTop').click(function(){
-//					$('html, body').animate({scrollTop:0}, 'slow');
-//用这个不行$('html, body').animate({scrollTop:0}, 'slow');			
-			document.documentElement.scrollTop=0;
-				})
+//				$('#backTop').click(function(){
+////					$('html, body').animate({scrollTop:0}, 'slow');
+////用这个不行$('html, body').animate({scrollTop:0}, 'slow');			
+//			document.documentElement.scrollTop=0;
+//				})
 			}else{
 				$('#header2').css(
 					{
@@ -41,6 +41,10 @@ $(function(){
 				$('#backTop').css('display','none')
 			}
 })
+		
+			$('#backTop').click(function(){
+				$('html,body').animate({'scrollTop':0},1000)
+			})
 	
 		//布局
 			//监听鼠标在spic上移动的事件
@@ -102,7 +106,7 @@ $(function(){
 
 //倒计时
 var now=new Date();
-        var end=new Date(2019,0,18,16,10,00);//结束的时间：年，月，日，分，秒（月的索引是0~11）
+        var end=new Date(2020,0,18,16,10,00);//结束的时间：年，月，日，分，秒（月的索引是0~11）
         /*两个时间相减,得到的是毫秒ms,变成秒*/
         var result=Math.floor(end-now)/1000; 
         

@@ -23,11 +23,11 @@ $(function(){
 					}
 				).css('z-index',20)
 				$('#backTop').css('display','block')
-				$('#backTop').click(function(){
-//					$('html, body').animate({scrollTop:0}, 'slow');
-//用这个不行$('html, body').animate({scrollTop:0}, 'slow');			
-			document.documentElement.scrollTop=0;
-				})
+//				$('#backTop').click(function(){
+////					$('html, body').animate({scrollTop:0}, 'slow');
+////用这个不行$('html, body').animate({scrollTop:0}, 'slow');			
+//			document.documentElement.scrollTop=0;
+//				})
 			}else{
 				$('#header2').css(
 					{
@@ -39,7 +39,9 @@ $(function(){
 			}
 })
 	
-	
+		$('#backTop').click(function(){
+				$('html,body').animate({'scrollTop':0},1000)
+			})
 	//动画效果
 	$('goods-item').hover(function(){
 		
