@@ -22,6 +22,7 @@ body {
 #banner {
 	height: 500px;
 	position: relative;
+	overflow: hidden;
 }
 
 #bannerC {
